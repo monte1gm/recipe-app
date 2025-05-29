@@ -1,0 +1,46 @@
+[
+  {
+    "SQLServerDBConnectionString": "",
+    "controlPanelLink": "https://portal.azure.com",
+    "databases": null,
+    "destinationAppUrl": "http://recipe-app-gabriel.azurewebsites.net",
+    "hostingProviderForumLink": "",
+    "msdeploySite": "recipe-app-gabriel",
+    "mySQLDBConnectionString": "",
+    "profileName": "recipe-app-gabriel - Web Deploy",
+    "publishMethod": "MSDeploy",
+    "publishUrl": "recipe-app-gabriel.scm.azurewebsites.net:443",
+    "userName": "$recipe-app-gabriel",
+    "userPWD": "NKwDJzAndgAp0hgh5p1T8kLlFLNPq4WGDDdAjEnQWqji5LLLALJfiY6DfFYc",
+    "webSystem": "WebSites"
+  },
+  {
+    "SQLServerDBConnectionString": "",
+    "controlPanelLink": "https://portal.azure.com",
+    "databases": null,
+    "destinationAppUrl": "http://recipe-app-gabriel.azurewebsites.net",
+    "ftpPassiveMode": "True",
+    "hostingProviderForumLink": "",
+    "mySQLDBConnectionString": "",
+    "profileName": "recipe-app-gabriel - FTP",
+    "publishMethod": "FTP",
+    "publishUrl": "ftps://waws-prod-bay-261.ftp.azurewebsites.windows.net/site/wwwroot",
+    "userName": "recipe-app-gabriel\\$recipe-app-gabriel",
+    "userPWD": "NKwDJzAndgAp0hgh5p1T8kLlFLNPq4WGDDdAjEnQWqji5LLLALJfiY6DfFYc",
+    "webSystem": "WebSites"
+  },
+  {
+    "SQLServerDBConnectionString": "",
+    "controlPanelLink": "https://portal.azure.com",
+    "databases": null,
+    "destinationAppUrl": "http://recipe-app-gabriel.azurewebsites.net",
+    "hostingProviderForumLink": "",
+    "mySQLDBConnectionString": "",
+    "profileName": "recipe-app-gabriel - Zip Deploy",
+    "publishMethod": "ZipDeploy",
+    "publishUrl": "recipe-app-gabriel.scm.azurewebsites.net:443",
+    "userName": "$recipe-app-gabriel",
+    "userPWD": "NKwDJzAndgAp0hgh5p1T8kLlFLNPq4WGDDdAjEnQWqji5LLLALJfiY6DfFYc",
+    "webSystem": "WebSites"
+  }
+]
