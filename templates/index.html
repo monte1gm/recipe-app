@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Recipe App</title>
+</head>
+<body>
+    <h1>Recipe Scraper</h1>
+    <form method="POST">
+        <input type="text" name="url" placeholder="Paste recipe URL" required>
+        <button type="submit">Fetch Recipe</button>
+    </form>
+
+    {% if recipe %}
+        <h2>{{ recipe.title }}</h2>
+        <h3>Ingredients</h3>
+        <ul>
+            {% for ing in recipe.ingredients %}
+            <li>{{ ing }}</li>
+            {% endfor %}
+        </ul>
+        <h3>Instructions</h3>
+        <ol>
+            {% for step in recipe.steps %}
+            <li>{{ step }}</li>
+            {% endfor %}
+        </ol>
+    {% endif %}
+</body>
+</html>
